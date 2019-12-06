@@ -17,4 +17,13 @@ RSpec.describe 'As a visitor', type: :feature do
       expect(page).to have_content(@scott.age)
       expect(page).to have_content(@scott.house)
   end
+
+  it 'Shows the Average age of all students' do
+
+  end
+# As a visitor,
+# When I visit '/students'
+# I see the average age of all students.
+#
+# (e.g. "Average Age: 14.5")
 end
